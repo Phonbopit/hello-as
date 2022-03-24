@@ -58,3 +58,26 @@ Version: 0.20.1
   ./index.html
   Starter HTML file that loads the module in a browser.
 ```
+
+Compile AssemblyScript to WebAssembly with following command:
+
+```bash
+yarn asbuild
+
+# npm
+npm run asbuild
+```
+
+Run test
+
+```bash
+yarn test
+```
+
+Start a local server:
+
+```bash
+yarn start
+```
+
+Done.

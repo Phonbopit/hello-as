@@ -1,4 +1,5 @@
 import assert from "assert";
-import { add } from "../build/debug.js";
+import { add, mul } from "../build/debug.js";
 assert.strictEqual(add(1, 2), 3);
+assert.strictEqual(mul(10, 5), 50);
 console.log("ok");

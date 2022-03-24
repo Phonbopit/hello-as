@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
 <script type="module">
-import { add } from "./build/release.js";
-document.body.innerText = add(1, 2);
+import { add, mul } from "./build/release.js";
+
+document.body.innerText = "add(3,4) = " + add(3,4) + " mul(12,3) = " + mul(12,3);
+
+
 </script>
 </head>
 <body></body>
