@@ -7,6 +7,9 @@ Initialize a project with NPM or Yarn
 ```bash
 yarn init
 
+# with zero-installs
+yarn init -2
+
 # npm
 npm init -y
 ```
@@ -81,3 +84,8 @@ yarn start
 ```
 
 Done.
+
+## Note about Yarn 2+
+
+- [Zero Installs](https://yarnpkg.com/features/zero-installs)
+- [Which files should be gitignored?](https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
